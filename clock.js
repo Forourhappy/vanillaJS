@@ -15,4 +15,5 @@ function getClock() {
   clock.innerText = `${daytime} ${hour} : ${min}`
 }
 
-setInterval(getClock, 1000)
+getClock();
+setInterval(getClock, 1000);

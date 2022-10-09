@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'KyoboHandwriting2020A';
+}
+
+.hidden {
+  display: none;
+}
+
+img{
+  width: 100%;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+li > span{
+  margin-right: 10px;
+}
